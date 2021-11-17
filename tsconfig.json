@@ -5,8 +5,9 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "outFile": "tsc.js",
-    "sourceMap": true
+    "sourceMap": true,
+    "moduleResolution": "node"
   },
-  "include": ["src/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
