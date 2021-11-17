@@ -6,6 +6,9 @@
     "url" : "https://github.com/BoogieMonster1O1/markdowntohtml/issues"
   },
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.3.1",
